@@ -141,7 +141,7 @@ body{
 }
 .fourth-part{
     display: block;
-    margin: 100px auto;
+    margin: 100px auto 50px auto;
     height: 150px;
     background: url(./shapes/Group_33094_1.png);
     background-size: contain;
@@ -181,6 +181,7 @@ body{
     background: url(./images/header-bg.png);
     background-size: cover;
     background-position: top;
+    width: 100%;
 }
 .all-h4{
     font-size: 30px;
@@ -189,8 +190,10 @@ body{
     margin-top: 20px;
 }
 .desp{
-    
-    margin: 80px 7% 0 7% ;
+    width: 35%;
+    float: left;
+    margin: 80px 7% ;
+    padding: 10px 2%;
     border-left: 5px solid  rgba(246, 158, 41, 0.89);
     cursor: pointer; 
     border-image: linear-gradient(#ff542d, #ff9e1e);
