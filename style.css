@@ -10,9 +10,7 @@ body{
 }
 
 .top-header{
-    
-    background: #363958;
-    opacity: 1;
+    background:#011a25;
     display: block;
     height: 40px;
     text-align: right;
@@ -28,14 +26,18 @@ body{
 .top-second-header{
     background: url(./images/top-banner.png);
     background-repeat: no-repeat;
+    
+    
 }
 .second-header{
-    height: 450px;
+    height: 500px;
+    
+    padding: 20px ;
 }
 
 .half-width{
     width: 40%;
-    margin: 40px 5% ;
+    margin: 0 5% 0 5%;
     padding: 0 3%;
     float: left;
     text-align: start;
@@ -64,6 +66,11 @@ body{
     font-weight: 600;
 
 }
+.half-width-button:hover{
+    background: linear-gradient(45deg, #000507, #033b57);
+    border: 1px solid white;
+
+}
 .color-second-text2{
     color: #FF8367;
 }
@@ -84,6 +91,11 @@ body{
     background: url(./images/dream-bg.png);
     background-repeat: no-repeat;
    background-position: right; 
+   background-color: #011a25;
+   margin: 40px 0;
+}
+.top-third-banner p{
+    color: white;
 }
 
 .third-head{
@@ -165,6 +177,7 @@ body{
     color: #363958;
     text-transform: capitalize;
     display: inline-block;
+    line-height: 80px;
 }
 .button-right{
     margin: 20px 40px;
